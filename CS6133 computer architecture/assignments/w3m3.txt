@@ -1,0 +1,33 @@
+
+1 Design Analysis:
+1 List and explain the types of logic gates used in adder 16
+and its sub-modules
+
+
+
+2 You have been tasked to build a 64-bit adder/subtractor.
+Could you use adder 16 as a sub-module to build a 64-bit
+adder/subtractor? If yes, how? if not, why?
+3 What is the maximum frequency (fmax) at which
+slow adder will run reliably? Does it run at the same speed
+in all temperatures (0C and 85C)? If not, why?
+4 What is “out reg” and its purpose? Give detailed
+description of this component.
+
+ 2 Functional Analysis:
+1 How does adder 16 perform subtraction?
+2 List, explain and write function specification for each
+sub-module within adder 16.
+3 What is the use of “Cout”, an output of adder 16, and
+does it confirm to functional specification? If not, why? and how could you fix it?
+
+
+Use fast adder project for the activities 3 & 4.
+3 Timing Analysis:
+1 By design, how many logic levels are there in adder16?
+2 How fast (MHz) is the clock running in fast adder?
+3 Does fast adder meet fmax requirements? If not, why?
+4 Redesign:
+1 Redesign fast adder, in paper, to meet timing requirement.
+2 Implement your modification using Quartus II software and
+test it in DE0-Nano. You should make sure that your new design meets timing requirement before downloading it to DE0-Nano.
